@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+
+}
+nav{
+  background: #1b1b1b;
+  width:100%;
+  padding: 10px 0;
+  position: fixed;
+  x-index:12;
+}
+nav .menu{
+  margin: auto;
+  max-width: 1250px;
+  /*background: red;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+.menu .log a{
+  text-decoration: none;
+  color:aliceblue;
+  font-size: 45px;
+  font-weight: 600;
+}
+.menu ul{
+  display:inline-flex;
+  
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:aliceblue;
+  color: rgb(250,250,250);
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu ul li a:hover{
+  background: rgb(250,250,250);
+  color:black;
+}
+.img{
+  background: url(bgphoto.avif);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.center{
+  position:absolute;
+  top:52%;
+  left:50%;
+  width:100%;
+  text-align: center;
+  /*background: red;*/
+  transform: translate(-50%, -50%);
+  padding:0 20px;
+
+}
+.center .title{
+  color:aliceblue;
+  font-size: 38px;
+  font-weight: 600;
+
+}
+.center .btn{
+  margin: 20px;
+}
+.center .subtitle{
+  color:bisque;
+  font-size: 20px;
+  font-weight: 600;
+}
+.center .btn button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid #ffff;
+ font-size: 20px;
+ font-weight: 500;
+ padding: 0 10px;
+ cursor: pointer;
+ outline: none;
+ transition: all 0.3s ease;
+
+}
+.center .btn button:first-child{
+  color: white;
+  background: none;
+
+}
+.center .btn button:first-child:hover{
+  color: black;
+  background:white;
+}
+.center .btn button:last-child:hover{
+  color:red;
+  background: white;
+
+}
+  
