@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>second question</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        align-items: center;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      h2 {
+        padding: 3px;
+        color: rgb(119, 150, 150);
+      }
+      #firstQuestion {
+        align-items: center;
+        text-align: center;
+        background: url(londan.jpg) center/ cover no-repeat;
+        height: 300px;
+        width: 40%;
+        background-image: cover;
+        background-size: contain;
+      }
+      fieldset {
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+      }
+      .buton {
+        color: rgb(25, 30, 20);
+        background-color: aquamarine;
+        border-radius: 2em;
+        margin-top: 2em;
+      }
+      .submitbuton {
+        color: rgb(25, 30, 20);
+        background-color: aquamarine;
+        border-radius: 2em;
+        margin-top: 2em;
+      }
+      .vm .y {
+        margin-inline-end: 2em;
+        background-color: blueviolet;
+        border: 3px solid rgb(7, 152, 22);
+        border-radius: 2.6em;
+      }
+      .vm .n {
+        margin-inline-end: 2em;
+        background-color: rgb(82, 44, 117);
+        border: 3px solid rgb(158, 59, 59);
+        border-radius: 2.5em;
+        color: red;
+      }
+      .n:hover {
+        font-size: large;
+      }
+      .y:hover {
+        font-family: sans-serif;
+        font-size: larger;
+      }
+    </style>
+
+  </head>
+  <body>
+    <a href="logIn.html"><i class="fa fa-arrow-circle-left"></i></a>
+    <h2>
+      If you are real know Kigali city, is this city it? <br />
+    </h2>
+    <fieldset id="firstQuestion">
+      <div class="vm">
+        <button class="y">Yes</button><button class="n">No</button>
+      </div>
+    </fieldset>
+    <button class="buton">show result</button>
+    <button class="submitbuton">submit</button>
+
+    <p class="output" style="
+        font-size: 20px;
+        font-weight: bold;
+    "></p>
+
+    <script>
+        const y = document.querySelector(".y");
+        const n = document.querySelector(".n");
+        const buton = document.querySelector(".buton");
+        const submitbuton = document.querySelector(".submitbuton");
+        const output = document.querySelector(".output");
+  
+        let clicked;
+        y.addEventListener("click", () => {
+          clicked = true;
+        });
+  
+        n.addEventListener("click", () => {
+          clicked = false;
+        });
+  
+        submitbuton.addEventListener("click", () =>{
+            
+          if (clicked) {
+            output.innerText = `Oooh, Sorry try again!`;
+          } else {
+            output.innerText = `Congratulations, you got it! This is London`;
+          }
+        });
+
+      </script>
+  </body>
+</html>

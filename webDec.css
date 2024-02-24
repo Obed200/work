@@ -1,0 +1,94 @@
+body{
+    background-color: lemonchiffon;
+    /* height: 20%; */
+    /* background-image: url(mere.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+p{
+    /* padding:29px; */
+    margin-left: 2em;
+}
+button{
+    color:aqua;
+    background-color: brown;
+    margin-left: 3em;
+    border: 3px solid gray;
+
+}
+
+.container{
+    background-color: rgba(189, 183, 107, 0.162);
+    align-items: center;
+    text-align: center;
+    width:60%;
+    padding: 20px;
+
+    margin: 8% auto;
+}
+
+.container p input {
+    padding: 8px 12px;
+}
+
+.container p input:focus {
+    outline: none;
+}
+
+footer{
+    width: 100%;
+    /* bottom: -70px; */
+    /* left: -49.8px; */
+    /* position: fixed; */
+    /* padding: 50px; */
+    color: azure;
+}
+.footer{
+    background: #ff730023;
+    padding-top: 10px; 
+    align-items: center;
+}
+.icon{
+    display: flex;
+    margin-right: 30px; 
+    list-style: none;
+    margin: auto;
+    align-items: center;
+    padding: 0 40px;
+    
+}
+.icon img{
+    width: 35px;
+    height: 40px;
+    display: inline-flex;
+    margin-inline-end: 40px;
+    
+}
+.icon img {
+    width: 35px;
+    display: inline-flex;
+    margin-inline-end: 40px;
+}
+.footer {
+    background: #ff73002f;
+    padding-top: 10px;
+    display: flex;
+    /* Added flex display to allow alignment of items */
+    justify-content: flex-end; 
+    /* Align items in center */
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.icon img {
+    width: 35px;
+    height: 40px;
+    display: inline-flex;
+    margin-inline-end: 40px;
+}
