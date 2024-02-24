@@ -1,0 +1,248 @@
+body {
+  background-color: rgb(244, 242, 240);
+  margin: auto;
+  /* height: 1100px; */
+
+  padding-top: 130px;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgba(245, 222, 179, 0.747);
+  background: white;
+  padding: 12px;
+  width: 100%;
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9998;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+  box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.menu {
+  max-width: 80%;
+  padding: 12px;
+  display: flex;
+  /* margin-inline-start: 8em; */
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px !important;
+  margin-right: 40px;
+}
+.menu a {
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: black;
+  margin-inline-start: 2.5em;
+}
+.container_a {
+  margin-left: 200px;
+  display: flex;
+}
+.text1 {
+  width: 400px;
+}
+.container_a a:hover {
+  align-items: center;
+  text-decoration: underline;
+}
+.content {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+.content .btn {
+  margin: 20px;
+  align-items: center;
+}
+/* .content .subtitle {
+  text-align: center;
+  margin-top: 4.9em;
+  font-size: 20px;
+  font-weight: 600;
+} */
+
+.amalink {
+  margin-top: 200px;
+  border: 3px solid rgb(9, 9, 9);
+}
+.d_container {
+  max-width: 1200px;
+  margin-inline-start: 10px;
+  margin-inline-end: 20px;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 6%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.d_container img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  padding: 2px;
+  box-shadow: 6px 6px 10px #98918b;
+  margin-inline-end: 2px;
+  margin-block-end: 2px;
+  scrollbar-shadow-color: #fcfa9e;
+  transition: all 0.3s ease;
+}
+.d_container .d1 img:hover {
+  inline-size: none;
+  margin-inline-end: 23px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #fcfa9e;
+  border-radius: 20px;
+  border: 2px solid #fcfa9e;
+}
+.d_container .d2 img:hover {
+  inline-size: none;
+  margin-inline-end: 23px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #fcfa9e;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid #fcfa9e;
+}
+.d_container .d3 img:hover {
+  inline-size: none;
+  margin-inline-end: 23px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #fcfa9e;
+  border-radius: 20px;
+  border: 3px solid #fcfa9e;
+  margin-left: 2%;
+}
+.d_container .d4 img:hover {
+  inline-size: none;
+  margin-inline-end: 23px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #fcfa9e;
+  border-radius: 20px;
+  border: 2px solid #fcfa9e;
+  margin-right: 20px;
+}
+.d1,
+.d2,
+.d3,
+.d4 {
+  margin-left: 60px;
+}
+.d5 img:hover {
+  inline-size: none;
+  margin-inline-end: 23px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #fcfa9e;
+  border-radius: 20px;
+  border: 2px solid #fcfa9e;
+  margin-right: 20px;
+}
+.d5,
+.d6,
+.d7,
+.d8 {
+  margin-left: 60px;
+}
+.paragraph {
+  margin-top: 400px;
+  margin-left: -1100px;
+  display: inline-flex;
+  margin-inline-end: 30px;
+
+  height: 500px;
+  width: 900px;
+}
+.d1 h2 {
+  width: 200px;
+}
+.lab,
+.lab1,
+.lab2,
+.lab3 {
+  width: 200px;
+  height: 100px;
+}
+/* .btn1 {
+  background-color: black;
+  color: white;
+  size: xx-large;
+  border: 1.5px solid salmon;
+  border-radius: 12.5em;
+} */
+/* .btn:hover{
+    font-family: verdana;
+    background-size: x-large;
+    display: inline-flex;
+    max-width: 20px;
+    margin-left: 30px;
+} */
+.foot {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  border-top: 1px solid rgba(0, 0, 0, 0.146);
+  padding: 20px;
+
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+.left-side input {
+  padding: 8px 12px;
+}
+
+.left-side input:focus {
+  outline: none;
+}
+
+.btn2 {
+  margin-top: 4px;
+  padding: 8px;
+}
+
+.sign-up--btn {
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sign-up--btn a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.sites {
+  float: right;
+
+  margin-right: 100px;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.site a {
+  text-decoration: none;
+}
+.pp {
+  font-size: 24px;
+  font-weight: bold;
+}
+.copy {
+  color: #fcfa9e;
+  margin-top: 130px;
+  font-size: 20px;
+}
